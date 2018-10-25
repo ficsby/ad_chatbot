@@ -18,6 +18,10 @@
           "node": "Template.flow.json"
         },
         {
+          "condition": "event.nlu.intent.is('general_ad_info')",
+          "node": "what_is_ad-copy"
+        },
+        {
           "condition": "true",
           "node": "Unknown"
         }
@@ -29,6 +33,59 @@
       "next": [],
       "onEnter": [
         "say #!builtin_text-Hu6Up9"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "709c3011a4",
+      "name": "what_is_ad-copy",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "what_is_ad_2-copy"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"no\" || event.text === 'cancel'",
+          "node": "Cancel_conversation"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-lHH6iY",
+        "say #!builtin_single-choice-723FOt"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "f6956a61b9",
+      "name": "what_is_ad_2-copy",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "Solution.flow.json"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"no\" || event.text === 'cancel'",
+          "node": "Cancel_conversation"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0WpM~z",
+        "say #!builtin_text-cpez3P",
+        "say #!builtin_single-choice-as1nTf"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "fba1723d63",
+      "name": "Cancel_conversation",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yHG5Rb"
       ],
       "onReceive": null
     }

@@ -335,7 +335,7 @@
   {
     "id": "builtin_text-cCng_E",
     "formData": {
-      "text": "How may I help you?",
+      "text": "How can I help?",
       "typing": true
     },
     "createdBy": "admin",
@@ -349,5 +349,23 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-10-24T22:49:08.099Z"
+  },
+  {
+    "id": "builtin_text-yI5YsK",
+    "formData": {
+      "text": "Hi welcome to AD Chat Bot!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-25T18:49:01.526Z"
+  },
+  {
+    "id": "builtin_text-yHG5Rb",
+    "formData": {
+      "text": "Oh ok.... I'm always ready to help!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-25T19:01:35.929Z"
   }
 ]
