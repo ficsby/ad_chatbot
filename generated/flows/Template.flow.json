@@ -94,7 +94,8 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-P3RZ_1"
+        "say #!builtin_text-P3RZ_1",
+        "say #!builtin_image-xCRWiN"
       ],
       "onReceive": null
     },
