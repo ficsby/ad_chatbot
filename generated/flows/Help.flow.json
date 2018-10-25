@@ -1,0 +1,36 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "3ce61e847a",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-cCng_E"
+      ],
+      "onReceive": [
+        "yourCustomAction {\"name\":\"question\"}"
+      ],
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('template')",
+          "node": "Template.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "Unknown"
+        }
+      ]
+    },
+    {
+      "id": "8908dddd01",
+      "name": "Unknown",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-Hu6Up9"
+      ],
+      "onReceive": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "10ca35b97b",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-PXLtTo"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "TemplateExplorer"
+        }
+      ]
+    },
+    {
+      "id": "5919ce8b7d",
+      "name": "TemplateUsage",
+      "next": [
+        {
+          "condition": "event.text === 'Instantiate template'",
+          "node": "Instantiate"
+        },
+        {
+          "condition": "event.text === 'Edit template'",
+          "node": "Edit"
+        },
+        {
+          "condition": "event.text === 'Create template'",
+          "node": "Create"
+        },
+        {
+          "condition": "event.text === 'Other topics'",
+          "node": "Help.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-vLehwW"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4124a99712",
+      "name": "TemplateExplorer",
+      "next": [
+        {
+          "condition": "event.text === 'Yes'",
+          "node": "TemplateUsage"
+        },
+        {
+          "condition": "event.text === 'No'",
+          "node": "EndTemplate"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-GKyTZf"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4dccfb501d",
+      "name": "EndTemplate",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-0V69DU"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "60de0c7db9",
+      "name": "Instantiate",
+      "next": [
+        {
+          "condition": "true",
+          "node": "BackTemplateUsage"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Z~q5W9"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "33f27808e9",
+      "name": "Edit",
+      "next": [
+        {
+          "condition": "true",
+          "node": "BackTemplateUsage"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-P3RZ_1"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a30f46b194",
+      "name": "Create1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "TemplateUsage"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-31AjIb"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "7a2535e84d",
+      "name": "Create2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "TemplateUsage"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-tiEhXG"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "88cbe503c2",
+      "name": "Create3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "TemplateUsage"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Tzyjlu"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "7cbe66e925",
+      "name": "Create",
+      "next": [
+        {
+          "condition": "event.text === \"Turn existing engineering data into a template\"",
+          "node": "Create1"
+        },
+        {
+          "condition": "event.text === \"Start in the empty template environment and define the template from scratch\"",
+          "node": "Create2"
+        },
+        {
+          "condition": "event.text === \"Derive a new template from an existing template\"",
+          "node": "Create3"
+        },
+        {
+          "condition": "event.text === 'Back'",
+          "node": "TemplateUsage"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-De7M2~"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "0bddb932c4",
+      "name": "BackTemplateUsage",
+      "next": [
+        {
+          "condition": "event.text === 'Yes'",
+          "node": "TemplateUsage"
+        },
+        {
+          "condition": "event.text === 'No'",
+          "node": "Help.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-mMEb7I"
+      ],
+      "onReceive": null
+    }
+  ]
+}
