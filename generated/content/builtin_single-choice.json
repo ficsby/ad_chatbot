@@ -120,5 +120,97 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-10-22T03:58:29.894Z"
+  },
+  {
+    "id": "builtin_single-choice-GKyTZf",
+    "formData": {
+      "text": "Do you want to know more about template?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "NO"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T19:45:41.712Z"
+  },
+  {
+    "id": "builtin_single-choice-vLehwW",
+    "formData": {
+      "text": "What do you want to know more about template?",
+      "choices": [
+        {
+          "title": "Create template",
+          "value": "Create template"
+        },
+        {
+          "title": "Instantiate template",
+          "value": "Instantiate template"
+        },
+        {
+          "title": "Edit template",
+          "value": "Edit template"
+        },
+        {
+          "title": "Other topics",
+          "value": "Other topics"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:00:58.170Z"
+  },
+  {
+    "id": "builtin_single-choice-De7M2~",
+    "formData": {
+      "text": "You can create templates in different ways. Choose one.",
+      "choices": [
+        {
+          "title": "Turn existing engineering data into a template",
+          "value": "Turn existing engineering data into a template"
+        },
+        {
+          "title": "Derive a new template from an existing template",
+          "value": "Derive a new template from an existing template"
+        },
+        {
+          "title": "Start in the empty template environment and define the template from scratch",
+          "value": "Start in the empty template environment and define the template from scratch"
+        },
+        {
+          "title": "Back",
+          "value": "Back"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:24:27.084Z"
+  },
+  {
+    "id": "builtin_single-choice-mMEb7I",
+    "formData": {
+      "text": "Still interested in template topic?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T23:27:13.734Z"
   }
 ]
