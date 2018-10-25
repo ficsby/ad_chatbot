@@ -195,5 +195,226 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-10-22T04:17:31.512Z"
+  },
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}!",
+      "variations": [
+        "Hello, {{state.$r}}!",
+        "Welcome to Botpress, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-AY5SSW",
+    "formData": {
+      "text": "This is the first time we speak 🤖",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:59:51.118Z"
+  },
+  {
+    "id": "builtin_text-bFsOmf",
+    "formData": {
+      "text": "We already spoke {{state.$r}} times!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:00:37.593Z"
+  },
+  {
+    "id": "builtin_text-TtzrCV",
+    "formData": {
+      "text": "Alright, I have forgotten your name.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:06:41.963Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "May I know your name please?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-X069Le",
+    "formData": {
+      "text": "Try saying something like \"forget my name\"!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:16:53.227Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z"
+  },
+  {
+    "id": "builtin_text-jJMySM",
+    "formData": {
+      "text": "How may I help you?",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T17:16:31.461Z"
+  },
+  {
+    "id": "builtin_text-vVjmt4",
+    "formData": {
+      "text": "Templates are reusable, ready-made solutions that reduce the complexity of engineering decisions to choosing between prepared solutions. They allow you to take an engineering solution from one project and to reuse it in the same project and in other projects. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T17:50:00.446Z"
+  },
+  {
+    "id": "builtin_text-Ftdk7~",
+    "formData": {
+      "text": "Templates are reusable, ready-made solutions that reduce the complexity of engineering decisions to choosing between prepared solutions. They allow you to take an engineering solution from one project and to reuse it in the same project and in other projects. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T17:53:22.752Z"
+  },
+  {
+    "id": "builtin_text-n3LDSu",
+    "formData": {
+      "text": "Templates are reusable, ready-made solutions that reduce the complexity of engineering decisions to choosing between prepared solutions. They allow you to take an engineering solution from one project and to reuse it in the same project and in other projects. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T18:24:19.429Z"
+  },
+  {
+    "id": "builtin_text-ZpkBwJ",
+    "formData": {
+      "text": "Sorry I don't know that but I'm learning everyday. Please check back later. Thanks!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T18:44:17.977Z"
+  },
+  {
+    "id": "builtin_text-PXLtTo",
+    "formData": {
+      "text": "Templates are reusable, ready-made solutions that reduce the complexity of engineering decisions to choosing between prepared solutions. They allow you to take an engineering solution from one project and to reuse it in the same project and in other projects.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T19:36:10.864Z"
+  },
+  {
+    "id": "builtin_text-51PDHE",
+    "formData": {
+      "text": "testing",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T19:53:40.211Z"
+  },
+  {
+    "id": "builtin_text-0V69DU",
+    "formData": {
+      "text": "Thanks for visiting!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T19:55:40.670Z"
+  },
+  {
+    "id": "builtin_text-LoxhHl",
+    "formData": {
+      "text": "You can create template in different ways:",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:21:14.273Z"
+  },
+  {
+    "id": "builtin_text-Tzyjlu",
+    "formData": {
+      "text": "To do this, insert an existing template into a project, modify it, and then turn it into a new template",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:28:25.631Z"
+  },
+  {
+    "id": "builtin_text-tiEhXG",
+    "formData": {
+      "text": "\n\n1.Choose File tab→ New Item. \n2.In the New Item dialog box, click the Automation Designer tab. \n3.In the Templates group, select the Template row. \n4.In the Attributes group, in the ID row, double-click the Value cell. \nAutomation Designer generates a unique ID, a revision, and a default name for the template definition. \n5.(Optional) While it is optional to change the default name, it is good practice to do so. Do the following:\n◦In the Name cell, right-click and choose Edit. \n◦In the Edit dialog box, type the name.\n◦Click OK. \n6.In the Type dialog box, expand the tree and select a type. \n7.(Optional) In the Properties group, enter values for the properties of the template definition. \n8.Click OK. \nAutomation Designer opens the template environment.\n9.In the template environment, build your template.\n10.Choose File tab→Save Template . \n11.Choose File tab→Close→Close Template. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:32:49.410Z"
+  },
+  {
+    "id": "builtin_text-31AjIb",
+    "formData": {
+      "text": "1. Open the project whose engineering data you want to reuse.\n2. In the project, choose Home tab→Reuse Operations group→Create Template. \n3. Hold Ctrl or Shift as you select the objects that you want to add to the template in the navigators. \n4. In the Name group, type the name and description of the template. \n5. Click OK -> Template environment is open.\n6. Modify the template as necessary.\n7. Choose File tab→Save Template -> The Save Template dialog displays. \n8. In the Classification dialog box, expand the tree and select a classification class and subclass. \n9. (Optional) In the Properties group, enter values for the properties of the template definition. \n10. Click OK. \n11. Choose File tab→Close→Close Template.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:34:27.347Z"
+  },
+  {
+    "id": "builtin_text-Z~q5W9",
+    "formData": {
+      "text": "1. Choose the Home tab, Electrical Engineering tab, or Controller Programming tab→Insert group→Template \n2. In the Reuse Library, expand the Solution Library node and select the required node. \n3. In the Select Member panel, select a suitable template. \n4. (Optional) You can assign under which parent the root nodes of the template are inserted in the Aspect Navigators. For each aspect of the template for which you want to assign a parent, do the following:\n5. In the Template dialog box, in the Aspects group, click Select Parent . \n5. In the corresponding Aspect Navigator, select the Engineering Object under which you want to insert the root node of the template.\n6. Click OK.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:36:28.156Z"
+  },
+  {
+    "id": "builtin_text-119qw2",
+    "formData": {
+      "text": "1. Browse to the template in the Reuse Library\n2. Select the template and MB3->Open/Edit Template",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:38:54.455Z"
+  },
+  {
+    "id": "builtin_text-P3RZ_1",
+    "formData": {
+      "text": "1. Browse to the template in the Reuse Library\n2. Select the template and MB3->Open/Edit Template",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T20:39:50.575Z"
+  },
+  {
+    "id": "builtin_text-cCng_E",
+    "formData": {
+      "text": "How may I help you?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T22:47:09.248Z"
+  },
+  {
+    "id": "builtin_text-Hu6Up9",
+    "formData": {
+      "text": " Sorry I don't know that but I'm learning everyday. Please check back later. Thanks!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-24T22:49:08.099Z"
   }
 ]
