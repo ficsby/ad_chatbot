@@ -57,6 +57,13 @@
         "say #!builtin_text-yI5YsK"
       ],
       "onReceive": null
+    },
+    {
+      "id": "e8c09e86bd",
+      "name": "test",
+      "next": [],
+      "onEnter": [],
+      "onReceive": null
     }
   ]
 }
