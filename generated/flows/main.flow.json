@@ -31,20 +31,6 @@
       "onReceive": []
     },
     {
-      "id": "528a230c8a",
-      "name": "entry-copy",
-      "onEnter": [
-        "say #!builtin_text-cCng_E"
-      ],
-      "onReceive": null,
-      "next": [
-        {
-          "condition": "true",
-          "node": "Help.flow.json"
-        }
-      ]
-    },
-    {
       "id": "6f3f5a2890",
       "name": "LaunchBot",
       "next": [
@@ -56,13 +42,6 @@
       "onEnter": [
         "say #!builtin_text-yI5YsK"
       ],
-      "onReceive": null
-    },
-    {
-      "id": "e8c09e86bd",
-      "name": "test",
-      "next": [],
-      "onEnter": [],
       "onReceive": null
     }
   ]
