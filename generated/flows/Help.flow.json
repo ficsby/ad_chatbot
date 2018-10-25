@@ -22,6 +22,10 @@
           "node": "what_is_ad-copy"
         },
         {
+          "condition": "event.nlu.intent.is('bye')",
+          "node": "Bye"
+        },
+        {
           "condition": "true",
           "node": "Unknown"
         }
@@ -90,11 +94,11 @@
       "onReceive": null
     },
     {
-      "id": "9e6435fc90",
-      "name": "Test",
+      "id": "41ea8f0473",
+      "name": "Bye",
       "next": [],
       "onEnter": [
-        ""
+        "say #!builtin_text-VXDUWt"
       ],
       "onReceive": null
     }

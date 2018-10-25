@@ -64,10 +64,13 @@
     {
       "id": "4dccfb501d",
       "name": "EndTemplate",
-      "next": [],
-      "onEnter": [
-        "say #!builtin_text-0V69DU"
+      "next": [
+        {
+          "condition": "true",
+          "node": "Help.flow.json"
+        }
       ],
+      "onEnter": [],
       "onReceive": null
     },
     {

@@ -353,7 +353,7 @@
   {
     "id": "builtin_text-yI5YsK",
     "formData": {
-      "text": "Hi welcome to AD Chat Bot!",
+      "text": "Hi, \nWelcome to AD Chat Bot!",
       "typing": true
     },
     "createdBy": "admin",
@@ -367,5 +367,14 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-10-25T19:01:35.929Z"
+  },
+  {
+    "id": "builtin_text-VXDUWt",
+    "formData": {
+      "text": "Bye! Thanks for visiting!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-25T21:52:10.417Z"
   }
 ]
