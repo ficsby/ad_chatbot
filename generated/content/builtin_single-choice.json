@@ -1,0 +1,124 @@
+[
+  {
+    "id": "builtin_single-choice-723FOt",
+    "formData": {
+      "text": "Would you like to know more about Automation Designer?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:05:37.228Z"
+  },
+  {
+    "id": "builtin_single-choice-5zVNSG",
+    "formData": {
+      "text": "Do you want more information about Automation Designer?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:17:48.556Z"
+  },
+  {
+    "id": "builtin_single-choice-as1nTf",
+    "formData": {
+      "text": "Would you like to know about Integrated solution vision for Automation Designer?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:35:29.743Z"
+  },
+  {
+    "id": "builtin_single-choice-SpTBXJ",
+    "formData": {
+      "text": "Should I continue?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:39:27.213Z"
+  },
+  {
+    "id": "builtin_single-choice-JIpIKW",
+    "formData": {
+      "text": "Cool. Here are some basic tasks. Select an option to get more information.",
+      "choices": [
+        {
+          "title": "Using projects and worksets",
+          "value": "project"
+        },
+        {
+          "title": "Creating and structuring objects",
+          "value": "structure"
+        },
+        {
+          "title": "Editing the properties of Engineering Objects",
+          "value": "editprop"
+        },
+        {
+          "title": "Using expressions",
+          "value": "exp"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:56:52.309Z"
+  },
+  {
+    "id": "builtin_single-choice-R47Rct",
+    "formData": {
+      "text": "Should we learn about basic tasks in Automation Designer?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:58:29.894Z"
+  }
+]

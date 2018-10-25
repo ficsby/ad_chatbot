@@ -1,0 +1,152 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": "forget-my-name"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "bda0320009",
+      "name": "welcome",
+      "onEnter": [
+        "say #!builtin_text-pSsHWg",
+        "getTotalNumberOfConversations {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.$r === 0",
+          "node": "first-time"
+        },
+        {
+          "condition": "state.$r > 0",
+          "node": "many-times"
+        }
+      ]
+    },
+    {
+      "id": "7099199f90",
+      "name": "first-time",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-AY5SSW",
+        "say #!builtin_text-X069Le"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4f50a2e9fd",
+      "name": "forget-my-name",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-TtzrCV",
+        "resetUserVariable {\"name\":\"nickname\"}",
+        "say #!builtin_text-kKQ8C3"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a54a82eb7c",
+      "name": "entry",
+      "onEnter": [
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}",
+        "say #!builtin_text-stKM3U"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.$r !== null",
+          "node": "welcome"
+        },
+        {
+          "condition": "true",
+          "node": "ask-name"
+        }
+      ]
+    },
+    {
+      "id": "d29fc6b771",
+      "name": "ask-name",
+      "next": [
+        {
+          "condition": "true",
+          "node": "welcome"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-z0J9qh"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"nickname\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+      ]
+    },
+    {
+      "id": "42c59c8a94",
+      "name": "what_is_ad",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "what_is_ad_2"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"no\" || event.text === 'cancel'",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-lHH6iY",
+        "say #!builtin_single-choice-723FOt"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "c69ee2d71f",
+      "name": "many-times",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "what_is_ad"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"no\" || event.text === 'cancel'",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bFsOmf"
+      ],
+      "onReceive": [
+        "say #!builtin_text-0vJwNc"
+      ]
+    },
+    {
+      "id": "0ad7165d27",
+      "name": "what_is_ad_2",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "Solution.flow.json"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"no\" || event.text === 'cancel'",
+          "node": "many-times"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0WpM~z",
+        "say #!builtin_text-i~aZsY"
+      ],
+      "onReceive": [
+        "say #!builtin_text-cpez3P",
+        "say #!builtin_single-choice-as1nTf"
+      ]
+    }
+  ]
+}

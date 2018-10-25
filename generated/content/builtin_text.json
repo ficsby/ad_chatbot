@@ -1,0 +1,199 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}!",
+      "variations": [
+        "Hello, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-AY5SSW",
+    "formData": {
+      "text": "This is the first time we speak 🤖",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:59:51.118Z"
+  },
+  {
+    "id": "builtin_text-bFsOmf",
+    "formData": {
+      "text": "We already spoke {{state.$r}} times!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:00:37.593Z"
+  },
+  {
+    "id": "builtin_text-TtzrCV",
+    "formData": {
+      "text": "Alright, I have forgotten your name.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:06:41.963Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "May I know your name please?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-X069Le",
+    "formData": {
+      "text": "Try saying something like \"forget my name\"!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:16:53.227Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z"
+  },
+  {
+    "id": "builtin_text-lHH6iY",
+    "formData": {
+      "text": "Thank you for relying on Siemens quality and for choosing Automation Designer as your solution for electrical and automation engineering.\n\nAutomation Designer is intended for electrical engineers and automation engineers from the discrete industry who work in teams on multi-disciplinary projects. By focusing on re-usability, rule-based engineering, and cross-discipline collaboration and data integration, Automation Designer improves the consistency of such projects, reduces the time and cost invested in them, and increases the productivity of the entire production engineering process.",
+      "variations": [
+        "Automation Designer is a Digital Factory solution for electrical and automation engineering. It lets you design the electrical and automation solution for a production system or machine, eventually enabling the generation of its electrical schematics and PLC program. Can also work with other automation products like Line Designer."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T02:03:11.483Z"
+  },
+  {
+    "id": "builtin_text-stKM3U",
+    "formData": {
+      "text": "Welcome to Automation Designer chatbot!",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T02:07:38.723Z"
+  },
+  {
+    "id": "builtin_text-0vJwNc",
+    "formData": {
+      "text": "Would you like to explore Automation Designer?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T02:27:45.516Z"
+  },
+  {
+    "id": "builtin_text-cpez3P",
+    "formData": {
+      "text": "Automation Designer is a Digital Factory solution for electrical and automation engineering. It lets you design the electrical and automation solution for a production system or machine, eventually enabling the generation of its electrical schematics and PLC program. Can also work with other automation products like Line Designer.",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:12:10.116Z"
+  },
+  {
+    "id": "builtin_text-0WpM~z",
+    "formData": {
+      "text": "NX gods will satisfy thy curiosity....",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:25:17.221Z"
+  },
+  {
+    "id": "builtin_text-tcDHZK",
+    "formData": {
+      "text": "Although Automation Designer can be used as a stand-alone application, engineering for the digital factory is always a multi-disciplinary effort.\n\nAutomation Designer is integrated in the Siemens software portfolio for the digital factory, which offers a broad range of solutions for discrete industries. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:37:19.759Z"
+  },
+  {
+    "id": "builtin_text-WFO6HN",
+    "formData": {
+      "text": "True to Siemens' vision for the digital factory, these solutions provide a fast and seamless transition between the involved departments and engineering disciplines. They parallelize operational processes and optimize interactions and data integration.\n\nWithin this chain of software solutions, Line Designer, Automation Designer, and Process Simulate form the Integrated Mechatronics Engineering Suite. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:40:21.675Z"
+  },
+  {
+    "id": "builtin_text-i~aZsY",
+    "formData": {
+      "text": "Are you ready to learn about the integrated solution vision?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:44:39.846Z"
+  },
+  {
+    "id": "builtin_text-etEl3O",
+    "formData": {
+      "text": "Are you paying attention?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:47:39.322Z"
+  },
+  {
+    "id": "builtin_text-xUFW~k",
+    "formData": {
+      "text": "Should I keep going?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:50:15.573Z"
+  },
+  {
+    "id": "builtin_text-HzNOa9",
+    "formData": {
+      "text": "True to Siemens' vision for the digital factory, these solutions provide a fast and seamless transition between the involved departments and engineering disciplines. They parallelize operational processes and optimize interactions and data integration.\n\nMore info follows:",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:51:26.258Z"
+  },
+  {
+    "id": "builtin_text-JnOGnM",
+    "formData": {
+      "text": "Within this chain of software solutions, Line Designer, Automation Designer, and Process Simulate form the Integrated Mechatronics Engineering Suite. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T03:53:35.629Z"
+  },
+  {
+    "id": "builtin_text-GQQ7av",
+    "formData": {
+      "text": "Within this portfolio, many software solutions for product engineering and production system engineering are built on the NX and Teamcenter platforms. Automation Designer connects this world to TIA Portal.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T04:04:50.714Z"
+  },
+  {
+    "id": "builtin_text-KHi86A",
+    "formData": {
+      "text": "Let's continue.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-22T04:17:31.512Z"
+  }
+]

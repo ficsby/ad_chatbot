@@ -1,0 +1,106 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "95893f7a6b",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-etEl3O"
+      ],
+      "onReceive": [
+        "say #!builtin_text-tcDHZK",
+        "say #!builtin_single-choice-SpTBXJ",
+        "say #!builtin_single-choice-SpTBXJ"
+      ],
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "solution2"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"n\" || event.text === 'cancel'",
+          "node": "END"
+        }
+      ]
+    },
+    {
+      "id": "b7640b2c3f",
+      "name": "solution2",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "solution2_1"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"n\" || event.text === 'cancel'",
+          "node": "END"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": [
+        "say #!builtin_image-2mL21J",
+        "say #!builtin_single-choice-SpTBXJ"
+      ]
+    },
+    {
+      "id": "b909cf66a8",
+      "name": "solution4",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === 'yes'",
+          "node": "basictasks.flow.json"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"n\" || event.text === 'cancel'",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-R47Rct"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "e0ec9f5126",
+      "name": "solution2_1",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === \"yes\"",
+          "node": "solution3"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"n\" || event.text === \"cancel\"",
+          "node": "END"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": [
+        "say #!builtin_text-GQQ7av"
+      ]
+    },
+    {
+      "id": "511bee2ea9",
+      "name": "solution3",
+      "next": [
+        {
+          "condition": "event.text === \"OK\" || event.text === \"Yes\" || event.text === \"yes\"",
+          "node": "solution4"
+        },
+        {
+          "condition": "event.text === \"No\" || event.text === \"n\" || event.text === \"cancel\"",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-HzNOa9"
+      ],
+      "onReceive": [
+        "say #!builtin_text-KHi86A",
+        "say #!builtin_text-JnOGnM",
+        "say #!builtin_single-choice-SpTBXJ"
+      ]
+    }
+  ]
+}
