@@ -88,6 +88,15 @@
         "say #!builtin_text-yHG5Rb"
       ],
       "onReceive": null
+    },
+    {
+      "id": "9e6435fc90",
+      "name": "Test",
+      "next": [],
+      "onEnter": [
+        ""
+      ],
+      "onReceive": null
     }
   ]
 }
