@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Run bot
 
 Run `npm start` to start your bot.
@@ -11,3 +12,6 @@ Check [Heroku](https://botpress.io/docs/deploy/heroku/) and [AWS](https://botpre
 ## Development
 
 To learn more on how to work with [Botpress](https://botpress.io/) you can read [here](https://botpress.io/docs/getting_started/).
+=======
+# ad_chatbot
+>>>>>>> 50e21e8f721402f30a7ff58fa20a4069585e032e
