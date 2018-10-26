@@ -12,10 +12,37 @@
   {
     "id": "builtin_image-xCRWiN",
     "formData": {
-      "image": "/media/r1u2j644zpor4urmcqnj-EditTemplateIcon.JPG",
+      "image": "/media/vq6z44ksbaw11ou8ebpz-EditTemplateIcon.JPG",
       "typing": true
     },
     "createdBy": "admin",
     "createdOn": "2018-10-25T20:24:28.212Z"
+  },
+  {
+    "id": "builtin_image-Q3G7Nh",
+    "formData": {
+      "image": "/media/901bkzx61ew4elgwk073-LogoMark.png",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-26T00:22:47.830Z"
+  },
+  {
+    "id": "builtin_image-ViA0ty",
+    "formData": {
+      "image": "/media/pd3byd7dnhbmrm8dop10-CreateTemplateIcon.JPG",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-26T00:26:29.710Z"
+  },
+  {
+    "id": "builtin_image-27Hcvp",
+    "formData": {
+      "image": "/media/i3p0447fzl5ok3o1c18x-InstantiateTemplateIcon.JPG",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-26T00:27:16.931Z"
   }
 ]
