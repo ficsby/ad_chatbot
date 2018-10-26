@@ -83,7 +83,6 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_image-27Hcvp",
         "say #!builtin_text-Z~q5W9"
       ],
       "onReceive": null
@@ -98,7 +97,6 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_image-xCRWiN",
         "say #!builtin_text-P3RZ_1"
       ],
       "onReceive": null
@@ -113,9 +111,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-31AjIb",
-        "say #!builtin_image-ViA0ty",
-        "say #!builtin_text-flrEbx"
+        "say #!builtin_text-31AjIb"
       ],
       "onReceive": null
     },

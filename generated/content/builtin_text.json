@@ -290,7 +290,7 @@
   {
     "id": "builtin_text-tiEhXG",
     "formData": {
-      "text": "\n\n1.Choose File tab? New Item. \n2.In the New Item dialog box, click the Automation Designer tab. \n3.In the Templates group, select the Template row. \n4.In the Attributes group, in the ID row, double-click the Value cell. \nAutomation Designer generates a unique ID, a revision, and a default name for the template definition. \n5.(Optional) While it is optional to change the default name, it is good practice to do so. Do the following:\n?In the Name cell, right-click and choose Edit. \n?In the Edit dialog box, type the name.\n?Click OK. \n6.In the Type dialog box, expand the tree and select a type. \n7.(Optional) In the Properties group, enter values for the properties of the template definition. \n8.Click OK. \nAutomation Designer opens the template environment.\n9.In the template environment, build your template.\n10.Choose File tab?Save Template . \n11.Choose File tab?Close?Close Template. ",
+      "text": "1. Choose File tab-> New Item. \n2. In the New Item dialog box, click the Automation Designer tab. \n3. In the Templates group, select the Template row. \n4. In the Attributes group, in the ID row, double-click the Value cell. \n5. In the Type dialog box, expand the tree and select a type. \n6. Click OK. \nAutomation Designer opens the template environment.\n7. In the template environment, build your template.\n8. Choose File tab->Save Template . \n9. Choose File tab->Close->Close Template. ",
       "typing": true
     },
     "createdBy": "admin",
@@ -299,7 +299,7 @@
   {
     "id": "builtin_text-31AjIb",
     "formData": {
-      "text": "1. Open the project whose engineering data you want to reuse.\n2. In the project, choose Home tab?Reuse Operations group?Create Template. \n",
+      "text": "1. Open the project whose engineering data you want to reuse.\n2. In the project, choose Home tab->Reuse Operations group->Create Template. \n3. Hold Ctrl or Shift as you select the objects that you want to add to the template in the navigators. \n4. In the Name group, type the name and description of the template. \n5. Click OK -> Template environment is open.\n6. Modify the template as necessary.\n7. Choose File tab->Save Template -> The Save Template dialog displays. \n8. In the Classification dialog box, expand the tree and select a classification class and subclass. \n9. Click OK. ",
       "typing": true
     },
     "createdBy": "admin",
@@ -308,7 +308,7 @@
   {
     "id": "builtin_text-Z~q5W9",
     "formData": {
-      "text": "1. Choose the Home tab, Electrical Engineering tab, or Controller Programming tab?Insert group?Template \n2. In the Reuse Library, expand the Solution Library node and select the required node. \n3. In the Select Member panel, select a suitable template. \n4. (Optional) You can assign under which parent the root nodes of the template are inserted in the Aspect Navigators. For each aspect of the template for which you want to assign a parent, do the following:\n5. In the Template dialog box, in the Aspects group, click Select Parent . \n5. In the corresponding Aspect Navigator, select the Engineering Object under which you want to insert the root node of the template.\n6. Click OK.",
+      "text": "1. Choose the Home tab, Electrical Engineering tab, or Controller Programming tab->Insert group->Template \n2. In the Reuse Library, expand the Solution Library node and select the required node. \n3. In the Select Member panel, select a suitable template. \n4. In the Template dialog box, in the Aspects group, click Select Parent . \n5. In the corresponding Aspect Navigator, select the Engineering Object under which you want to insert the root node of the template.\n6. Click OK.",
       "typing": true
     },
     "createdBy": "admin",
@@ -376,23 +376,5 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-10-25T21:52:10.417Z"
-  },
-  {
-    "id": "builtin_text-flrEbx",
-    "formData": {
-      "text": "3. Hold Ctrl or Shift as you select the objects that you want to add to the template in the navigators. \n4. In the Name group, type the name and description of the template. \n5. Click OK -> Template environment is open.\n6. Modify the template as necessary.\n7. Choose File tab?Save Template -> The Save Template dialog displays. \n8. In the Classification dialog box, expand the tree and select a classification class and subclass. \n9. (Optional) In the Properties group, enter values for the properties of the template definition. \n10. Click OK. \n11. Choose File tab?Close?Close Template.",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-10-26T00:29:38.623Z"
-  },
-  {
-    "id": "builtin_text-~No90q",
-    "formData": {
-      "text": "2. In the Reuse Library, expand the Solution Library node and select the required node. \n3. In the Select Member panel, select a suitable template. \n4. (Optional) You can assign under which parent the root nodes of the template are inserted in the Aspect Navigators. For each aspect of the template for which you want to assign a parent, do the following:\n5. In the Template dialog box, in the Aspects group, click Select Parent . \n5. In the corresponding Aspect Navigator, select the Engineering Object under which you want to insert the root node of the template.\n6. Click OK.",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-10-26T00:32:03.634Z"
   }
 ]
