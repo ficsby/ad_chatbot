@@ -40,7 +40,6 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_image-Q3G7Nh",
         "say #!builtin_text-yI5YsK"
       ],
       "onReceive": null
